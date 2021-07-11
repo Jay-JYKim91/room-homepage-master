@@ -1,0 +1,25 @@
+:root {
+  --body-font: "Spartan", sans-serif;
+  --heading-font: "DM Serif Display", serif;
+
+  --violet: hsl(256, 26%, 20%);
+  --grayish-blue: hsl(216, 30%, 68%);
+  --dark-violet: hsl(270, 9%, 17%);
+  --grayish-violet: hsl(273, 4%, 51%);
+  --light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+  font-size: 12px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
